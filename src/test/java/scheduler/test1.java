@@ -7,6 +7,6 @@ public class test1 extends ConfigurationScheduler {
 
         @Test
         public void test(){
-            
+
     }
 }
