@@ -11,13 +11,16 @@ public class LoginScreen extends BaseScreen {
     public LoginScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-
     @FindBy(how = How.XPATH, using = "//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']")
     AndroidElement emailEditText;
     @FindBy(how = How.XPATH, using = "//*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']")
     MobileElement passwordEditText;
     @FindBy(how = How.XPATH, using = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']")
     MobileElement loginButton;
+    @FindBy(xpath = "//*[@resource-id='android:id/message']")
+    MobileElement errorMessage;
+    @FindBy(xpath = "//*[@resource-id='android:id/button1']" )
+    MobileElement okbtn;
 
 
     public LoginScreen fillEmail(String email) {
@@ -56,7 +59,17 @@ public class LoginScreen extends BaseScreen {
     }
 
     public boolean isLoginBtnPresent(){
-        return loginButton.isDisplayed();
+        return isDisplayedWithExp(loginButton);
+    }
+
+    public LoginScreen checkErrorMessage(String text){
+        shouldHave(errorMessage,text,10);
+        return this;
+
+    }
+    public LoginScreen confirmErrorMessage(){
+        okbtn.click();
+        return this;
     }
 
 

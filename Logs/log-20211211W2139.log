@@ -1,0 +1,4 @@
+21:40:08 INFO  config.ConfigurationScheduler - Start test-->logOut
+21:40:08 INFO  config.ConfigurationScheduler - Test logOut starts with email -your2@gmail.com
+21:40:08 INFO  config.ConfigurationScheduler - Test logOut starts with password -Yy123456$
+21:40:34 INFO  config.ConfigurationScheduler - Finish the Test-->logOut
