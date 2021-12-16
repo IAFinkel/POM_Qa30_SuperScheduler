@@ -1,0 +1,61 @@
+21:42:25 INFO  config.ConfigurationScheduler - Start test-->logOut
+21:42:25 INFO  config.ConfigurationScheduler - Test logOut starts with email -your2@gmail.com
+21:42:25 INFO  config.ConfigurationScheduler - Test logOut starts with password -Yy123456$
+21:42:25 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:26 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:26 ERROR config.AppiumListener - Problem-->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nexus_5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d79ed209-bc7a-446a-adb7-ed48a9b253a4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}[Ljava.lang.StackTraceElement;@774073e5
+21:42:27 INFO  config.AppiumListener - Screen with error in file-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\src\test\screenshots\scr2547.png
+21:42:27 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:27 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:27 ERROR config.AppiumListener - Problem-->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nexus_5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d79ed209-bc7a-446a-adb7-ed48a9b253a4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}[Ljava.lang.StackTraceElement;@6ebf6159
+21:42:28 INFO  config.AppiumListener - Screen with error in file-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\src\test\screenshots\scr2548.png
+21:42:29 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:29 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:30 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:30 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:30 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:31 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:31 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:32 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+21:42:33 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:33 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:34 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:34 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:35 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:35 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+21:42:36 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+21:42:37 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+21:42:37 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+21:42:38 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+21:42:38 ERROR config.AppiumListener - Problem-->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: C:\Tools\v.0.0.3.apk, appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nexus_5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d79ed209-bc7a-446a-adb7-ed48a9b253a4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']}[Ljava.lang.StackTraceElement;@6305e0b5
+21:42:40 INFO  config.AppiumListener - Screen with error in file-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\src\test\screenshots\scr2560.png
+21:42:40 INFO  config.AppiumListener - Start find element-->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+21:42:43 INFO  config.AppiumListener - The element was found-->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+21:42:43 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+21:42:46 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+21:42:46 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+21:42:47 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+21:42:48 INFO  config.AppiumListener - Start find element-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+21:42:49 INFO  config.AppiumListener - The element was found-->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+21:42:49 INFO  config.ConfigurationScheduler - Finish the Test-->logOut

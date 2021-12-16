@@ -1,0 +1,20 @@
+19:46:13 INFO  config.ListenerTestNg - LTestNg: on Start-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\build\reports\tests\test\Gradle suite
+19:46:13 INFO  config.ListenerTestNg - LTestNg: on Start-->Gradle test
+19:46:14 INFO  config.ConfigurationScheduler - Start test-->loginSuccessTest
+19:46:14 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+19:46:14 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+19:46:14 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+19:46:14 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginSuccessTest
+19:46:32 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+19:46:32 INFO  config.ConfigurationScheduler - Finish the Test-->loginSuccessTest
+19:47:06 INFO  config.ListenerTestNg - LTestNg: on Start-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\build\reports\tests\test\Gradle suite
+19:47:06 INFO  config.ListenerTestNg - LTestNg: on Start-->Gradle test
+19:47:06 INFO  config.ConfigurationScheduler - Start test-->loginComplexTestNegative
+19:47:06 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+19:47:06 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+19:47:06 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+19:47:06 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginComplexTestNegative
+19:47:06 INFO  config.ConfigurationScheduler - Test loginDtoNeg starts with email -your2@gmail.com
+19:47:06 INFO  config.ConfigurationScheduler - Test loginDtoNeg starts with password -Yy123456
+19:47:21 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+19:47:21 INFO  config.ConfigurationScheduler - Finish the Test-->loginComplexTestNegative

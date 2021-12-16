@@ -3,6 +3,7 @@ package schedulerScreens;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class HomeScreen extends BaseScreen {
     public HomeScreen(AppiumDriver<MobileElement> driver) {
@@ -24,6 +25,12 @@ public class HomeScreen extends BaseScreen {
         return fabAdd.isDisplayed();
     }
 
+    public HomeScreen isFabAddPresentAssert() {
+        should(fabAdd, 20);
+        Assert.assertTrue(fabAdd.isDisplayed());
+        return this;
+    }
+
     public EditCreateEventScreen initCreationEvent() {
         fabAdd.click();
         fabAddEvent.click();
@@ -32,9 +39,9 @@ public class HomeScreen extends BaseScreen {
     }
 
     public LoginScreen logOut() {
-        burgerBtn.click();
-        should(logOutBtn, 20);
-        logOutBtn.click();
+            burgerBtn.click();
+            should(logOutBtn, 20);
+            logOutBtn.click();
         return new LoginScreen(driver);
     }
 }

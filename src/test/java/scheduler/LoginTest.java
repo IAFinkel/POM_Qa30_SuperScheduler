@@ -1,16 +1,21 @@
 package scheduler;
 
 import config.ConfigurationScheduler;
+import config.ListenerTestNg;
 import config.MyDataProvider;
 import models.Auth;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import schedulerScreens.HomeScreen;
 import schedulerScreens.LoginScreen;
 import schedulerScreens.SplashScreen;
 
 import java.lang.reflect.Method;
+
+//@Listeners(ListenerTestNg.class)//аннотация для подключения Listener from TestNg
 
 public class LoginTest extends ConfigurationScheduler {
 
@@ -19,15 +24,9 @@ public class LoginTest extends ConfigurationScheduler {
     logger.info("Start test-->"+m.getName());
     }
 
-    @AfterMethod
-    public void finishTest(Method m){
-        logger.info("Finish the Test-->"+m.getName());
-    }
-
     @Test
     public void loginSuccessTest() {
-        boolean isFabPresent = new SplashScreen(driver)
-                .checkVersion("0.0.3")
+        boolean isFabPresent = new LoginScreen(driver)
                 .fillEmail("noa@gmail.com")
                 .fillPassword("Nnoa12345$")
                 .clickLoginBtn()
@@ -95,6 +94,14 @@ public class LoginTest extends ConfigurationScheduler {
 
         Assert.assertTrue(fabAddPresent);
 
+//        boolean btnPresent = new LoginScreen(driver)
+//                .clickLoginBtnPositive(auth)
+//                .skipWizard()
+//                .isFabAddPresentAssert()
+//                .logOut()
+//                .isLoginBtnPresent();
+//
+//        Assert.assertTrue(btnPresent);
 
     }
 
@@ -113,5 +120,19 @@ public class LoginTest extends ConfigurationScheduler {
         Assert.assertTrue(isLoginBtnPresent);
 
 
+    }
+
+    @AfterMethod
+    public void finishTest(Method m){
+        logger.info("Finish the Test-->"+m.getName());
+    }
+
+    @AfterMethod
+    public LoginScreen logOutAfterMethod(){
+        if(!new LoginScreen(driver).isLoginBtnPresent()){
+        new HomeScreen(driver)
+                .logOut();
+        }
+        return new LoginScreen(driver);
     }
 }

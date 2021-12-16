@@ -1,0 +1,53 @@
+21:11:40 INFO  config.ListenerTestNg - LTestNg: on Start-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\build\reports\tests\test\Gradle suite
+21:11:40 INFO  config.ListenerTestNg - LTestNg: on Start-->Gradle test
+21:12:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:12:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:12:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.EventTest]
+21:12:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->createNewEventTest
+21:12:23 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:12:33 INFO  config.ConfigurationScheduler - Start test-->logOut
+21:12:33 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:12:33 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:12:33 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LogOutTest]
+21:12:33 INFO  config.ListenerTestNg - LTestNg: Start test getName-->logOut
+21:12:33 INFO  config.ConfigurationScheduler - Test logOut starts with email -your2@gmail.com
+21:12:33 INFO  config.ConfigurationScheduler - Test logOut starts with password -Yy123456$
+21:12:43 INFO  config.ConfigurationScheduler - Finish the Test-->logOut
+21:12:43 INFO  config.ConfigurationScheduler - Start test-->loginComplexTestNegative
+21:12:43 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:12:43 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:12:43 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:12:43 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginComplexTestNegative
+21:12:43 INFO  config.ConfigurationScheduler - Test loginDtoNeg starts with email -your2@gmail.com
+21:12:43 INFO  config.ConfigurationScheduler - Test loginDtoNeg starts with password -Yy123456
+21:12:58 INFO  config.ConfigurationScheduler - Finish the Test-->loginComplexTestNegative
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginComplexTestPositive
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginFromFileTestNegative
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginFromFileTestPositive
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginStartLoginScreen
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginSuccessTest
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.test1]
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getName-->test
+21:13:01 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null

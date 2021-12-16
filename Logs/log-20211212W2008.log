@@ -1,0 +1,11 @@
+20:08:41 INFO  config.ListenerTestNg - LTestNg: on Start-->C:\Users\gorbu\Documents\GitHub\POM_Qa30_SuperScheduler\build\reports\tests\test\Gradle suite
+20:08:41 INFO  config.ListenerTestNg - LTestNg: on Start-->Gradle test
+20:08:41 INFO  config.ConfigurationScheduler - Start test-->loginFromFileTestPositive
+20:08:41 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+20:08:41 INFO  config.ListenerTestNg - LTestNg: Start test getStatus-->16
+20:08:41 INFO  config.ListenerTestNg - LTestNg: Start test getTestClass-->[TestClass name=class scheduler.LoginTest]
+20:08:41 INFO  config.ListenerTestNg - LTestNg: Start test getName-->loginFromFileTestPositive
+20:08:41 INFO  config.ConfigurationScheduler - Test loginFromFilePos starts with email -your2@gmail.com
+20:08:41 INFO  config.ConfigurationScheduler - Test loginFromFilePos starts with password -Yy123456$
+20:09:03 INFO  config.ListenerTestNg - LTestNg: Start test getTestName-->null
+20:09:03 INFO  config.ConfigurationScheduler - Finish the Test-->loginFromFileTestPositive

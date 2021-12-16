@@ -7,7 +7,7 @@ import schedulerScreens.SplashScreen;
 
 public class LaunchAppTest extends ConfigurationScheduler {
 
-    @Test
+    @Test(enabled = false)
     public void launchTest(){
         String version = new SplashScreen(driver).getCurrencyVersion();
         Assert.assertEquals(version,"0.0.3");
