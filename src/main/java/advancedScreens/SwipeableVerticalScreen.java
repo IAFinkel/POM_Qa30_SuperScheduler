@@ -3,10 +3,12 @@ package advancedScreens;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.support.FindBy;
 
+import java.time.Duration;
 import java.util.List;
 
 public class SwipeableVerticalScreen extends BaseScreen {
@@ -51,6 +53,7 @@ public class SwipeableVerticalScreen extends BaseScreen {
 
         TouchAction<?> touchAction = new TouchAction<>(driver);
         touchAction.longPress(PointOption.point(x,yfrom))
+        //        .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))//ожидание 3 секунды между шагами
                 .moveTo(PointOption.point(x,yto))
                 .release()
                 .perform();
